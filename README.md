@@ -19,6 +19,8 @@
 
 - **methylation_mean_dev.R**: R script used to test whether the mean amount of C methylation observed in a transcripts subset is significantly greater than the general mean.
 
+- **cor_meth-expression.R**: R script to estimate the Spearman' coeficient between gene expression and mC.
+
 
 ### Figures
 - **mCbarplot.R**: R script to create the DNA methylation barplot
