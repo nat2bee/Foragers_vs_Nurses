@@ -8,4 +8,6 @@
 
 - **common.stats.R**: R function used to test overlap significance between DET in the two species. Used parameters in the manuscript are included.
 
-- **expected_GCmethylation.R**: R script used to test if the mean amount of CG methylation observed is greater than expected based on the proportion of CG sites in the transcriptome.
+- **expected_GCmethylation.R**: R script used to test wether the mean amount of CG methylation observed is greater than expected based on the proportion of CG sites in the transcriptome.
+
+- **methylation_mean_dev.R**: R script used to test whether the mean amount of C methylation observed in a transcripts subset is significantly greater than the general mean.
