@@ -22,3 +22,5 @@
 
 ### Figures
 - **mCbarplot.R**: R script to create the DNA methylation barplot
+
+- **mC_waffle.R**: R script to create the DNA methylation waffle plot
