@@ -21,3 +21,4 @@
 
 
 ### Figures
+- **mCbarplot.R**: R script to create the DNA methylation barplot
