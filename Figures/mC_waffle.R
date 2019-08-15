@@ -1,8 +1,11 @@
 #!/usr/bin/Rscript
+
+"""
 ## Date Created: 14-Aug-2019
 ## Author: N. S. Araujo###### Other Fig
 
 ## Creat the waffle graphs that show the context in which C methylation occurs on different gene sets.
+"""
 
 install.packages("waffle")
 library(waffle)
