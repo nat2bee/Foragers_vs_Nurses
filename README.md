@@ -21,8 +21,32 @@
 
 - **cor_meth-expression.R**: R script to estimate the Spearman' coeficient between gene expression and mC.
 
+- **GO_enrichment.R**: R script to estimate enriched GO terms among the DET using TopGO.
+
 
 ### Figures
-- **mCbarplot.R**: R script to create the DNA methylation barplot
+- **mCbarplot.R**: R script to create the DNA methylation barplot.
 
-- **mC_waffle.R**: R script to create the DNA methylation waffle plot
+- **mC_waffle.R**: R script to create the DNA methylation waffle plot.
+
+- **GOplot_fig.R**: R script to create the GOplot graph for third level terms from subgraphs of enriched terms.
+
+- **euler_fig.R**: R script to create the Euler diagram of genes in common.
+
+
+### Others
+- **Annocript2TopGo.py**: Python script used to format Annocript output to TopGO input.
+
+
+
+'''
+## License
+
+This work is distributed under the GPLv3 license. Reuse of code derived from this repository is permitted under two conditions:
+
+Proper attribution (i.e., citation of the associated publication; see CITATION.cff and above).
+Publication of reused scripts on an open-access platform, such as Github.
+
+
+
+
