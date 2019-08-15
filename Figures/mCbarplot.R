@@ -1,8 +1,12 @@
 #!/usr/bin/Rscript
+
+"""
 ## Date Created: 18-Jun-2019
 ## Author: N. S. Araujo
 
 ## Barplot figure comparing mC mean methylation among transcripts groups
+"""
+
 
 ## Create data frame with mean methylation values to plot
 m.data <- data.frame(Barplot1=c(0.66,1.24),Barplot2=c(0.78,1.3),
