@@ -1,5 +1,6 @@
-"""
 #!/usr/bin/Rscript
+
+"""
 ## Date Created: 18-Jun-2019
 ## Author: N. S. Araujo
 
