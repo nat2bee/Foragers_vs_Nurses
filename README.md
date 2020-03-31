@@ -1,15 +1,17 @@
 # Data and scripts repository from the manuscript:
 > **Multiple lineages, same molecular tools: task specialization is commonly regulated across all eusocial bee groups**
-*Natalia de Souza Araujo, Yannick Wurm, and Maria Cristina Arias*
+*Natalia de Souza Araujo, and Maria Cristina Arias*
 
 ## Repository content
 
 ### Data files
-- **Jt_fornur_dez16_lncCod.fasta.gz**: transcripts assembled based on RNASeq data from foragers and nurses of *T. angustula*. Assembly method described in the manuscript.
+- **Bt_fornur_dez16_lncCod_renamed_one.fasta.bz2**: superTranscripts assembled based on RNASeq data from foragers and nurses of *B. terrestris*. Assembly method described in the manuscript.
 
-- **Bt_fornur.mstat.data**: Estimation of DNA methylation in the transcriptome of *B. terrestris* nurse. Analysis method described in the manuscript.
+- **Jt_fornur_dez16_lncCod_renamed.fasta.gz**: superTranscripts assembled based on RNASeq data from foragers and nurses of *T. angustula*. Assembly method described in the manuscript.
 
-- **Jt_fornur.mstat.data**: Estimation of DNA methylation in the transcriptome of *T. angustula* nurse. Analysis method described in the manuscript.
+- **Bt_fornur.mstat.data**: Estimation of DNA methylation in the supertranscriptome of *B. terrestris* nurse. Analysis method described in the manuscript.
+
+- **Jt_fornur.mstat.data**: Estimation of DNA methylation in the supertranscriptome of *T. angustula* nurse. Analysis method described in the manuscript.
 
  
 ### Statistics
