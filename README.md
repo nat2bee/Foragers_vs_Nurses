@@ -1,5 +1,5 @@
 # Data and scripts repository from the manuscript:
-> **Multiple lineages, same molecular tools: task specialization is commonly regulated across all eusocial bee groups**
+> **Multiple lineages, same molecular basis: task specialization is commonly regulated across all eusocial bee groups**
 *Natalia de Souza Araujo, and Maria Cristina Arias*
 
 ## Repository content
