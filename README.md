@@ -47,9 +47,10 @@
 
 - **filter_orthogroups.py**: Python script used to format Annocript output to TopGO input.
 
-- **Orthogroups**: Manually rooted tree used on OrthoFinder.
+- **correct_rooted.tree**: Manually rooted tree used on OrthoFinder.
 
-- **Orthogroups**: Folder containing the IDs of the orthogroups in each taxonical class.
+### Orthogroups
+Folder containing the IDs of the orthogroups in each taxonical class.
 
 
 
