@@ -61,22 +61,98 @@ common.stats <- function (x, sp1, sp2, n1, n2, n = 10000, p = 0.01){
   
   # Returning the result
   if(p.value <= p){
-    return(list(h.plot,cat(c("Probability of getting ", x, " genes in common or more randomly from both dataset is significant. \np-value:", p.value))))
+    return(list(h.plot,cat(c("Probability of getting ", x, " genes in common or more randomly from both dataset is significant. \np-value:", p.value,
+                             "\nMean number of genes in common: ", mean(common.total), "\nSD: ", sd(common.total)))))
   }
   else{
-    return(list(h.plot,cat(c("Probability of getting ", x, " genes in common or more randomly from both dataset is not significant. \np-value:", p.value))))
+    return(list(h.plot,cat(c("Probability of getting ", x, " genes in common or more randomly from both dataset is not significant. \np-value:", p.value, 
+                             "\nMean number of genes in common: ", mean(common.total), "\nSD: ", sd(common.total)))))
   }
 }
 
 
 
 
+## Comparison between A. mellifera head and B. terrestris
+### All DET
+common.stats(x=49, sp1=bt_full.g, sp2=ap_full.g, n1=length(bt_allDEG), n2=length(ap_allDEG_head), n = 10000, p = 0.01)
+
+### Commonly highly expressed in nurses
+common.stats(x=8, sp1=bt_full.g, sp2=ap_full.g, n1=length(bt_nur.g), n2=length(am_nurse_head), n = 10000, p = 0.01)
+
+### Commonly highly expressed in foragers
+common.stats(x=17, sp1=bt_full.g, sp2=ap_full.g, n1=length(bt_for.g), n2=length(am_for_head), n = 10000, p = 0.01)
+
+#######
+
+
+## Comparison between A. mellifera thorax and B. terrestris
+### All DET
+common.stats(x=92, sp1=bt_full.g, sp2=ap_full.g, n1=length(bt_allDEG), n2=length(ap_allDEG_thorax), n = 10000, p = 0.01)
+
+### Commonly highly expressed in nurses
+common.stats(x=15, sp1=bt_full.g, sp2=ap_full.g, n1=length(bt_nur.g), n2=length(am_nurse_thorax), n = 10000, p = 0.01)
+
+### Commonly highly expressed in foragers
+common.stats(x=46, sp1=bt_full.g, sp2=ap_full.g, n1=length(bt_for.g), n2=length(am_for_thorax), n = 10000, p = 0.01)
+
+
+#######
+
+## Comparison between A. mellifera abdomen and B. terrestris
+### All DET
+common.stats(x=84, sp1=bt_full.g, sp2=ap_full.g, n1=length(bt_allDEG), n2=length(ap_allDEG_abdomen), n = 10000, p = 0.01)
+
+### Commonly highly expressed in nurses
+common.stats(x=18, sp1=bt_full.g, sp2=ap_full.g, n1=length(bt_nur.g), n2=length(am_nurse_abdomen), n = 10000, p = 0.01)
+
+### Commonly highly expressed in foragers
+common.stats(x=23, sp1=bt_full.g, sp2=ap_full.g, n1=length(bt_for.g), n2=length(am_for_abdomen), n = 10000, p = 0.01)
+
+#######
+
+## Comparison between A. mellifera head and T. angustula
+### All DET
+common.stats(x=22, sp1=jt_full.g, sp2=ap_full.g, n1=length(jt_allDEG), n2=length(ap_allDEG_head), n = 10000, p = 0.01)
+
+### Commonly highly expressed in nurses
+common.stats(x=7, sp1=jt_full.g, sp2=ap_full.g, n1=length(jt_nur.g), n2=length(am_nurse_head), n = 10000, p = 0.01)
+
+### Commonly highly expressed in foragers
+common.stats(x=3, sp1=jt_full.g, sp2=ap_full.g, n1=length(jt_for.g), n2=length(am_for_head), n = 10000, p = 0.01)
+
+#######
+
+## Comparison between A. mellifera thorax and T. angustula
+### All DET
+common.stats(x=27, sp1=jt_full.g, sp2=ap_full.g, n1=length(jt_allDEG), n2=length(ap_allDEG_thorax), n = 10000, p = 0.01)
+
+### Commonly highly expressed in nurses
+common.stats(x=13, sp1=jt_full.g, sp2=ap_full.g, n1=length(jt_nur.g), n2=length(am_nurse_thorax), n = 10000, p = 0.01)
+
+### Commonly highly expressed in foragers
+common.stats(x=7, sp1=jt_full.g, sp2=ap_full.g, n1=length(jt_for.g), n2=length(am_for_thorax), n = 10000, p = 0.01)
+
+#######
+
+## Comparison between A. mellifera abdomen and T. angustula
+### All DET
+common.stats(x=25, sp1=jt_full.g, sp2=ap_full.g, n1=length(jt_allDEG), n2=length(ap_allDEG_abdomen), n = 10000, p = 0.01)
+
+### Commonly highly expressed in nurses
+common.stats(x=10, sp1=jt_full.g, sp2=ap_full.g, n1=length(jt_nur.g), n2=length(am_nurse_abdomen), n = 10000, p = 0.01)
+
+### Commonly highly expressed in foragers
+common.stats(x=4, sp1=jt_full.g, sp2=ap_full.g, n1=length(jt_for.g), n2=length(am_for_abdomen), n = 10000, p = 0.01)
+
+#######
+
 ## Comparisons between T. angustula and B. terrestris
 ### All DET
-common.stats(x=18, sp1=jt_full.g, sp2=bt_full.g, n1=109, n2=472, n = 10000, p = 0.01)
+common.stats(x=18, sp1=jt_full.g, sp2=bt_full.g, n1=length(jt_allDEG), n2=length(bt_allDEG), n = 10000, p = 0.01)
 
-### Commonly highly expressed in nurser
-common.stats(x=9, sp1=jt_full.g, sp2=bt_full.g, n1=87, n2=170, n = 10000, p = 0.01)
+### Commonly highly expressed in nurses
+common.stats(x=9, sp1=jt_full.g, sp2=bt_full.g, n1=length(jt_nur.g), n2=length(bt_nur.g), n = 10000, p = 0.01)
 
 ### Commonly highly expressed in foragers
 common.stats(x=2, sp1=jt_full.g, sp2=bt_full.g, n1=24, n2=317, n = 10000, p = 0.01)
