@@ -48,7 +48,7 @@
 ### Others
 - **Annocript2TopGo.py**: Python script used to format Annocript output to TopGO input.
 
-- **filter_orthogroups.py**: Python script used to format Annocript output to TopGO input.
+- **filter_orthogroups.py**: Filter orthogroups ( Orthogroups.tsv ) containing a set of genes of interest.
 
 - **correct_rooted.tree**: Manually rooted tree used on OrthoFinder.
 
