@@ -1,5 +1,5 @@
 # Data and scripts repository from the manuscript:
-> **Gene expression and epigenetics reveal species-specific mechanisms acting upon common molecular pathways in the evolution of task division in bees**<br />
+> <a href="https://www.nature.com/articles/s41598-020-75432-8" title="Peer reviewed">[Scientifi Reports]</a> (2021) **Gene expression and epigenetics reveal species-specific mechanisms acting upon common molecular pathways in the evolution of task division in bees**<br />
 *Natalia de Souza Araujo, and Maria Cristina Arias*<br />
 \
 > <a href="https://www.biorxiv.org/content/10.1101/2020.04.01.020461v1" title="Pre-print">[Pre-print]</a> **Multiple lineages, same molecular basis: task specialization is commonly regulated across all eusocial bee groups** bioRxiv 2020.04.01.020461; doi: https://doi.org/10.1101/2020.04.01.020461 
